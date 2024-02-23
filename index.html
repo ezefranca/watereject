@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water Ejection Using Sound</title>
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Learn how sound frequencies can eject water from your mobile device. Use our tool to clear your speakers.">
+    <meta name="keywords" content="water ejection, sound frequencies, mobile water removal, speaker cleaning">
+    <meta name="author" content="YourName">
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom Styles -->
+    <style>
+        .hero-section {
+            background-color: #f0f0f0;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        .play-button {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="hero-section">
+        <h1>Water Ejection Using Sound</h1>
+        <p>Discover how specific sound frequencies can help eject water from your mobile device's speakers, enhancing functionality and preventing damage.</p>
+        <button id="playSound" class="btn btn-primary play-button">Eject Water</button>
+    </div>
+</div>
+
+<!-- Bootstrap JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script>
+document.getElementById('playSound').addEventListener('click', function() {
+    var audio = new Audio('watereject.mp3');
+    audio.play();
+});
+</script>
+
+</body>
+</html>
